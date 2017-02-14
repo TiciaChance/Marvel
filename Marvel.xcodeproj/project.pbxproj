@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86A328AE1E4A4279001E4C8C /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A328AD1E4A4279001E4C8C /* MarvelAPI.swift */; };
 		86C316411E3FB0710042315C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C316401E3FB0710042315C /* AppDelegate.swift */; };
 		86C316431E3FB0710042315C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C316421E3FB0710042315C /* ViewController.swift */; };
 		86C316461E3FB0710042315C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C316441E3FB0710042315C /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86A328AD1E4A4279001E4C8C /* MarvelAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
 		86C3163D1E3FB0710042315C /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C316401E3FB0710042315C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86C316421E3FB0710042315C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				86C316401E3FB0710042315C /* AppDelegate.swift */,
 				86C316421E3FB0710042315C /* ViewController.swift */,
 				86C316441E3FB0710042315C /* Main.storyboard */,
+				86A328AD1E4A4279001E4C8C /* MarvelAPI.swift */,
 				86C316471E3FB0710042315C /* Assets.xcassets */,
 				86C316491E3FB0710042315C /* LaunchScreen.storyboard */,
 				86C3164C1E3FB0710042315C /* Info.plist */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A328AE1E4A4279001E4C8C /* MarvelAPI.swift in Sources */,
 				86C316431E3FB0710042315C /* ViewController.swift in Sources */,
 				86C316411E3FB0710042315C /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				86C316511E3FB0710042315C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
